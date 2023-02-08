@@ -145,6 +145,7 @@ def request_and_parse_and_write_to_file(article_url):
     try:
         req = requests.get(article_url, headers=headers, timeout=1000)
     except:
+        print(article_url)
         print("Request time out: 네이버 IP 차단")
 
     html = req.text
