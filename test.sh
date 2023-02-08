@@ -4,9 +4,9 @@
 #python3 test.py --day 20210105
 #python3 test.py --day 20210106
 #python3 test.py --day 20210107
-python3 test.py --day 20210108
-python3 test.py --day 20210109
-python3 test.py --day 20210110
+#python3 test.py --day 20210108
+#python3 test.py --day 20210109
+#python3 test.py --day 20210110
 
 python3 test.py --day 20200101
 python3 test.py --day 20200102
