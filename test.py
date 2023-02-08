@@ -147,6 +147,7 @@ def request_and_parse_and_write_to_file(article_url):
     except:
         print(article_url)
         print("Request time out: 네이버 IP 차단")
+        return
 
     html = req.text
     # parse article content
@@ -191,15 +192,15 @@ if __name__ == '__main__':
     print("start to get each article")
 
 
-    with Pool(processes=8) as pool:
-        try:
-            pool.map(request_and_parse_and_write_to_file, tqdm(article_urls), chunksize=None)
-        except Exception as e:
-            print(e)
-        pool.close()
-        pool.join()
-    # try:
-    #     for url in article_urls:
-    #         request_and_parse_and_write_to_file(url)
-    # except Exception as e:
-    #     print(e)
+    # with Pool(processes=8) as pool:
+    #     try:
+    #         pool.map(request_and_parse_and_write_to_file, tqdm(article_urls), chunksize=None)
+    #     except Exception as e:
+    #         print(e)
+    #     pool.close()
+    #     pool.join()
+    try:
+        for url in article_urls:
+            request_and_parse_and_write_to_file(url)
+    except Exception as e:
+        print(e)
