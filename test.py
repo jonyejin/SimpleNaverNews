@@ -133,7 +133,6 @@ def parse_article_content(document: str, include_reporter_name: bool) -> str:
 
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/98.0.4758.102"}
 
-import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--day", dest='day', required=True, help="single day")
