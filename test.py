@@ -142,7 +142,11 @@ args = parser.parse_args()
 ###############
 def request_and_parse_and_write_to_file(article_url):
     # extract articles
-    req = requests.get(article_url, headers=headers)
+    try:
+        req = requests.get(article_url, headers=headers, timeout=1000)
+    except:
+        print("Request time out: 네이버 IP 차단")
+
     html = req.text
     # parse article content
     body = parse_article_content(html, False)
@@ -186,15 +190,15 @@ if __name__ == '__main__':
     print("start to get each article")
 
 
-    # with Pool(processes=8) as pool:
-    #     try:
-    #         pool.map(request_and_parse_and_write_to_file, tqdm(article_urls), chunksize=None)
-    #     except Exception as e:
-    #         print(e)
-    #     pool.close()
-    #     pool.join()
-    try:
-        for url in article_urls:
-            request_and_parse_and_write_to_file(url)
-    except Exception as e:
-        print(e)
+    with Pool(processes=8) as pool:
+        try:
+            pool.map(request_and_parse_and_write_to_file, tqdm(article_urls), chunksize=None)
+        except Exception as e:
+            print(e)
+        pool.close()
+        pool.join()
+    # try:
+    #     for url in article_urls:
+    #         request_and_parse_and_write_to_file(url)
+    # except Exception as e:
+    #     print(e)
