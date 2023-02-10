@@ -1,16 +1,31 @@
-
-#mount
-#sudo mount_smbfs -d 777 -f 777 //yejin:Qwer1234@165.194.27.114/DI-Works/프로젝트/뉴스 프로젝트/데이터/뉴스/news_txt /Volumes/Nas
-
-#upload previous
-
-python3 test.py --day 20200121
-python3 test.py --day 20200122
-python3 test.py --day 20200123
-python3 test.py --day 20200124
-python3 test.py --day 20200125
-python3 test.py --day 20200126
-python3 test.py --day 20200127
-python3 test.py --day 20200128
-python3 test.py --day 20200129
-python3 test.py --day 20200130
+python3 test.py --day 20221201
+python3 test.py --day 20221202
+python3 test.py --day 20221203
+python3 test.py --day 20221204
+python3 test.py --day 20221205
+python3 test.py --day 20221206
+python3 test.py --day 20221207
+python3 test.py --day 20221208
+python3 test.py --day 20221209
+python3 test.py --day 20221210
+python3 test.py --day 20221211
+python3 test.py --day 20221212
+python3 test.py --day 20221213
+python3 test.py --day 20221214
+python3 test.py --day 20221215
+python3 test.py --day 20221216
+python3 test.py --day 20221217
+python3 test.py --day 20221218
+python3 test.py --day 20221219
+python3 test.py --day 20221220
+python3 test.py --day 20221221
+python3 test.py --day 20221222
+python3 test.py --day 20221223
+python3 test.py --day 20221224
+python3 test.py --day 20221225
+python3 test.py --day 20221226
+python3 test.py --day 20221227
+python3 test.py --day 20221228
+python3 test.py --day 20221229
+python3 test.py --day 20221230
+python3 test.py --day 20221231
