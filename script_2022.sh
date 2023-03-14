@@ -1,3 +1,183 @@
+
+# 2022-01
+python3 test.py --day 20220101
+python3 test.py --day 20220102
+python3 test.py --day 20220103
+python3 test.py --day 20220104
+python3 test.py --day 20220105
+python3 test.py --day 20220106
+python3 test.py --day 20220107
+python3 test.py --day 20220108
+python3 test.py --day 20220109
+python3 test.py --day 20220110
+python3 test.py --day 20220111
+python3 test.py --day 20220112
+python3 test.py --day 20220113
+python3 test.py --day 20220114
+python3 test.py --day 20220115
+python3 test.py --day 20220116
+python3 test.py --day 20220117
+python3 test.py --day 20220118
+python3 test.py --day 20220119
+python3 test.py --day 20220120
+python3 test.py --day 20220121
+python3 test.py --day 20220122
+python3 test.py --day 20220123
+python3 test.py --day 20220124
+python3 test.py --day 20220125
+python3 test.py --day 20220126
+python3 test.py --day 20220127
+python3 test.py --day 20220128
+python3 test.py --day 20220129
+python3 test.py --day 20220130
+python3 test.py --day 20220131
+
+##2022-02
+python3 test.py --day 20220201
+python3 test.py --day 20220202
+python3 test.py --day 20220203
+python3 test.py --day 20220204
+python3 test.py --day 20220205
+python3 test.py --day 20220206
+python3 test.py --day 20220207
+python3 test.py --day 20220208
+python3 test.py --day 20220209
+python3 test.py --day 20220210
+python3 test.py --day 20220211
+python3 test.py --day 20220212
+python3 test.py --day 20220213
+python3 test.py --day 20220214
+python3 test.py --day 20220215
+python3 test.py --day 20220216
+python3 test.py --day 20220217
+python3 test.py --day 20220218
+python3 test.py --day 20220219
+python3 test.py --day 20220220
+python3 test.py --day 20220221
+python3 test.py --day 20220222
+python3 test.py --day 20220223
+python3 test.py --day 20220224
+python3 test.py --day 20220225
+python3 test.py --day 20220226
+python3 test.py --day 20220227
+python3 test.py --day 20220228
+
+# 2022-03
+# python3 test.py --day 20220301
+# python3 test.py --day 20220302
+# python3 test.py --day 20220303
+# python3 test.py --day 20220304
+# python3 test.py --day 20220305
+# python3 test.py --day 20220306
+# python3 test.py --day 20220307
+# python3 test.py --day 20220308
+# python3 test.py --day 20220309
+# python3 test.py --day 20220310
+# python3 test.py --day 20220311
+# python3 test.py --day 20220312
+# python3 test.py --day 20220313
+# python3 test.py --day 20220314
+# python3 test.py --day 20220315
+# python3 test.py --day 20220316
+# python3 test.py --day 20220317
+# python3 test.py --day 20220318
+# python3 test.py --day 20220319
+# python3 test.py --day 20220320
+# python3 test.py --day 20220321
+# python3 test.py --day 20220322
+# python3 test.py --day 20220323
+# python3 test.py --day 20220324
+# python3 test.py --day 20220325
+# python3 test.py --day 20220326
+# python3 test.py --day 20220327
+# python3 test.py --day 20220328
+# python3 test.py --day 20220329
+# python3 test.py --day 20220330
+# python3 test.py --day 20220331
+
+
+
+# ###2022-04
+
+# python3 test.py --day 20220401
+# python3 test.py --day 20220402
+# python3 test.py --day 20220403
+# python3 test.py --day 20220404
+# python3 test.py --day 20220405
+# python3 test.py --day 20220406
+# python3 test.py --day 20220407
+# python3 test.py --day 20220408
+# python3 test.py --day 20220409
+# python3 test.py --day 20220410
+# python3 test.py --day 20220411
+# python3 test.py --day 20220412
+# python3 test.py --day 20220413
+# python3 test.py --day 20220414
+# python3 test.py --day 20220415
+# python3 test.py --day 20220416
+# python3 test.py --day 20220417
+# python3 test.py --day 20220418
+# python3 test.py --day 20220419
+# python3 test.py --day 20220420
+# python3 test.py --day 20220421
+# python3 test.py --day 20220422
+# python3 test.py --day 20220423
+# python3 test.py --day 20220424
+# python3 test.py --day 20220425
+# python3 test.py --day 20220426
+# python3 test.py --day 20220427
+# python3 test.py --day 20220428
+# python3 test.py --day 20220429
+# python3 test.py --day 20220430
+
+# 2022-05
+# python3 test.py --day 20220501
+# python3 test.py --day 20220502
+# python3 test.py --day 20220503
+# python3 test.py --day 20220504
+# python3 test.py --day 20220505
+# python3 test.py --day 20220506
+# python3 test.py --day 20220507
+# python3 test.py --day 20220508
+# python3 test.py --day 20220509
+# python3 test.py --day 20220510
+# python3 test.py --day 20220511
+# python3 test.py --day 20220512
+# python3 test.py --day 20220513
+# python3 test.py --day 20220514
+# python3 test.py --day 20220515
+# python3 test.py --day 20220516
+# python3 test.py --day 20220517
+# python3 test.py --day 20220518
+# python3 test.py --day 20220519
+# python3 test.py --day 20220520
+# python3 test.py --day 20220521
+# python3 test.py --day 20220522
+# python3 test.py --day 20220523
+# python3 test.py --day 20220524
+# python3 test.py --day 20220525
+# python3 test.py --day 20220526
+# python3 test.py --day 20220527
+# python3 test.py --day 20220528
+# python3 test.py --day 20220529
+# python3 test.py --day 20220530
+# python3 test.py --day 20220531
+
+
+# 2022-06
+# python3 test.py --day 20220601
+# python3 test.py --day 20220602
+# python3 test.py --day 20220603
+# python3 test.py --day 20220604
+# python3 test.py --day 20220605
+# python3 test.py --day 20220606
+# python3 test.py --day 20220607
+# python3 test.py --day 20220608
+# python3 test.py --day 20220609
+# python3 test.py --day 20220610
+# python3 test.py --day 20220611
+# python3 test.py --day 20220612
+# python3 test.py --day 20220613
 python3 test.py --day 20220614
 python3 test.py --day 20220615
 python3 test.py --day 20220616
